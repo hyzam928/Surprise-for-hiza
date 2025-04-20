@@ -1,0 +1,25 @@
+<p><!DOCTYPE html> <html lang=&quot;en&quot;> <head>  <meta charset=&quot;UTF-8&quot;>  <meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;>  <title>Special Surprise for Hiza</title>  <style>  body {  font-family: Arial, sans-serif;  background-color: #f7f7f7;  text-align: center;  padding: 50px;  color: #333;  }</p>
+
+<p> .header {  font-size: 3em;  color: #ff6f61;  margin-bottom: 20px;  }</p>
+
+<p> .surprise {  font-size: 1.5em;  color: #4caf50;  display: none;  margin-top: 30px;  }</p>
+
+<p> .poem {  font-style: italic;  margin-top: 40px;  color: #888;  }</p>
+
+<p> .btn {  padding: 10px 20px;  background-color: #ff6f61;  color: white;  border: none;  border-radius: 5px;  cursor: pointer;  margin-top: 20px;  }</p>
+
+<p> .btn:hover {  background-color: #ff3f30;  }</p>
+
+<p> /* Hidden animation for surprise */  @keyframes surprise-animation {  0% {  transform: scale(1);  opacity: 0;  }  50% {  transform: scale(1.2);  opacity: 1;  }  100% {  transform: scale(1);  opacity: 1;  }  }</p>
+
+<p> .surprise-active {  animation: surprise-animation 2s forwards;  }  </style> </head> <body>  <div class=&quot;header&quot;>A Special Surprise for Hiza</div></p>
+
+<p> <p>Welcome, Hiza! I'm so happy to share this moment with you.</p></p>
+
+<p> <button class=&quot;btn&quot; onclick=&quot;showSurprise()&quot;>Click for a Surprise</button></p>
+
+<p> <div class=&quot;surprise&quot; id=&quot;surpriseMessage&quot;>  <p>You are the most amazing person I know! &#55357;&#56470;</p>  <p>Thank you for everything you do, Hiza. This is just for you!</p>  </div></p>
+
+<p> <div class=&quot;poem&quot;>  <p>&quot;In your eyes, the stars shine bright, <br>  In your smile, I see the light. <br>  With you, everything feels right, <br>  Hiza, you're my heart&rsquo;s delight.&quot;</p>  </div></p>
+
+<p> <script>  function showSurprise() {  var surpriseElement = document.getElementById('surpriseMessage');  surpriseElement.style.display = 'block';  surpriseElement.classList.add('surprise-active');  }  </script> </body> </html></p>
